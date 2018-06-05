@@ -71,15 +71,15 @@ class Config {
             // local assetss
             return [
                 'handsontable' => [
-                    'js' => [static::$vendorPathUrl . '/handsontable/dist/handsontable.full.js'],
+                    'js' => [static::$vendorPathUrl . '/handsontable/dist/handsontable.full.min.js'],
                     'css' => [static::$vendorPathUrl . '/handsontable/dist/handsontable.full.min.css']
                 ],
                 'moment' => [
-                    'js' => [static::$vendorPathUrl . '/moment/moment.js'],
+                    'js' => [static::$vendorPathUrl . '/handsontable/dist/moment/moment.js'],
                 ],
                 'pikaday' => [
-                    'js' => [static::$vendorPathUrl . '/moment/moment.js'],
-                    'css' => [static::$vendorPathUrl . '/pikaday/pikaday.min.css']
+                    'js' => [static::$vendorPathUrl . '/handsontable/dist/pikaday/pikaday.js'],
+                    'css' => [static::$vendorPathUrl . '/handsontable/dist/pikaday/pikaday.css']
                 ],
                 'jquery' => ['js' => [static::$vendorPathUrl . '/jquery/dist/jquery.min.js']]
             ];
